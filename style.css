@@ -1,0 +1,45 @@
+/* Importando do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    list-style: none;   /* remove os dots */
+    color:black;
+    .background-color: blue;
+}
+nav{
+    display: flex; /* Permite organizar os elementos HTML*/
+    justify-content: space-between;
+    background-color:#FFE600;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.8rem;
+    color: #0046BE;
+    font-weight: bold;
+    
+}
+li{
+    padding: 12px 10px 5px 50px; /* dá um respiro dentro dos links */
+}
+a{ 
+    text-decoration: none; /* remove o sublinhado */
+    color: black;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+  , url('https://thumbs.dreamstime.com/z/cadeira-de-barbeiro-vintage-hirstylist-profissional-no-interior-da-barbearia-preto-e-branco-405277294.jpg?ct=jpeg') no-repeat center center/cover;
+  text-align: center;
+  padding: 6rem 2rem;
+  color: #fff;
+}
