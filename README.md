@@ -1,1 +1,0 @@
-# loja-dos-games
